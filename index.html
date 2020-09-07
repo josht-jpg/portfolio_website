@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joshua Taylor Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Hello!</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>Friends, </strong>thank you for visiting
+            </h1>
+            <img src="css_running.jpg" alt="a picture of me competing" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">I'm Joshua Taylor. I code, run, and read.   </p>
+            
+        </section>
+        
+        
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">A Few of My Projects</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>The Autodidact</h3>
+                    <p>A web app that leverages the tools of natural language processing. 
+                        Allows users to quickly gain a wide array of insights into their textual data.
+                        Created with R</p>
+                    <a href="https://jdt10.shinyapps.io/The_Autodidact/" class="btn">View Project</a>
+                </div> 
+                
+                <div class="service">
+                    <h3>NLP from the Underground</h3>
+                    <p>A two-part sentiment analysis of Dostoevsky’s masterpieces using the tools of data science.
+                        Published on Medium. Performed in Python.
+                    </p>
+                    <a href="#work" class="btn">View Project</a>
+                </div>
+                
+                <div class="service">
+                    <h3>Astral Showers</h3>
+                    <p>A fun little animation created to give friends a sense of what I mean by "The Beauty of Mathematics". Created with Processing. </p>
+                    <a href="https://www.youtube.com/watch?v=0769nbRw2Ow" class="btn">View Project</a>
+                </div>
+            </div> 
+            
+
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">A Bit About Me</h2>
+           <p class="section__subtitle section__subtitle--about">I'm a third year Computing Science and Mathematics major at Simon Fraser University</p>
+           
+           <div class="about-me__body">
+               <p>I am interested in everything. I am currently working on combining natural language processing and computer vision to analyze films and comic books in novel ways. I'm passionate about ultramarathon running. I'm passionate about reading. I'm currently reading: Think Complexity, Storytelling with Data, The Immortal Life of Henrietta Lacks, The King James Bible, Bioinformatics second edition: The Machine Learning Approach.</p>
+               <p>The prospect of writing code every day and spending time with people who write code every day fills me with a profound sense of joy.</p>
+           </div>
+           
+           <img src="css_profile.jpg" alt="Me hiking" class="about-me__img">
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+
+            <p class="footer__link">joshtaylor361@gmail.com</p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://medium.com/@joshtaylor361/following">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/josht-jpg">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.youtube.com/channel/UCcdsfvbRdgcpYhFPAlna6uA">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
